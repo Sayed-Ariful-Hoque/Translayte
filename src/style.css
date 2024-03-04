@@ -1,5 +1,14 @@
 
 
+
+/* common css  */
+.btnst{
+    background-color: #00303F;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+}
+/* common css end */
 .parsonsla{
     display: none;
 }
@@ -84,6 +93,29 @@
     left: 25px;
     transform: translateY(102%);
 } 
+
+
+/* .quality_part start  */
+    .quality_part{
+        background: url(imgs/banner_img.png);
+        width: 100%;
+  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ 
+/* .quality_part end  */
+
+
+.litag a{
+    border-bottom: 2px solid #00303F;
+    font-size: 20px;
+    font-weight: 500;
+    color: #00303F;
+    line-height: 40px;
+    font-family: 'Intet', sans-serif;
+}
 
 
 /* font-family: 'Stroke', sans-serif;
