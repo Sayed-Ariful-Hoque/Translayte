@@ -118,6 +118,33 @@
 }
 
 
+/* delevery Part start  */
+.aks{
+    content: '';
+    right: 0;
+    top: -80px;
+}
+/* delevery Part end */
+
+/* we_have_a_global_part start  */
+.world_position_1{
+    content:'' ;
+    width: 61px;
+    height: 61px;
+}
+.world_position_2{
+    content:'' ;
+    width: 61px;
+    height: 61px;
+}
+.we_have_a_global_part{
+    background-image: url(imgs/happy-woman.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* we_have_a_global_part end  */
+
 /* font-family: 'Stroke', sans-serif;
 font-weight: normal; */
 

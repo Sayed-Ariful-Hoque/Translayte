@@ -552,12 +552,16 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
-.top-24 {
-  top: 6rem;
+.right-3 {
+  right: 0.75rem;
+}
+
+.top-8 {
+  top: 2rem;
 }
 
 .m-auto {
@@ -584,8 +588,25 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-9 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-\[179px\] {
+  margin-bottom: 179px;
 }
 
 .ml-10 {
@@ -628,6 +649,10 @@ video {
   margin-top: 4rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -644,8 +669,16 @@ video {
   margin-top: 100px;
 }
 
+.mt-\[101px\] {
+  margin-top: 101px;
+}
+
 .mt-\[135px\] {
   margin-top: 135px;
+}
+
+.mt-\[180px\] {
+  margin-top: 180px;
 }
 
 .mt-\[44px\] {
@@ -658,42 +691,6 @@ video {
 
 .mt-\[72px\] {
   margin-top: 72px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
-.mt-96 {
-  margin-top: 24rem;
-}
-
-.mt-auto {
-  margin-top: auto;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .block {
@@ -828,6 +825,14 @@ video {
   max-width: 64rem;
 }
 
+.max-w-\[1100px\] {
+  max-width: 1100px;
+}
+
+.max-w-\[457px\] {
+  max-width: 457px;
+}
+
 .max-w-\[900px\] {
   max-width: 900px;
 }
@@ -952,14 +957,33 @@ video {
   padding: 0.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-3 {
@@ -1012,6 +1036,10 @@ video {
   text-align: center;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1020,6 +1048,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-\[16px\] {
@@ -1080,9 +1113,30 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .md\:left-16 {
+    left: 4rem;
+  }
+
+  .md\:right-16 {
+    right: 4rem;
+  }
+
+  .md\:top-24 {
+    top: 6rem;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .md\:mb-0 {
@@ -1109,6 +1163,10 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .md\:mt-8 {
     margin-top: 2rem;
   }
@@ -1127,10 +1185,6 @@ video {
 
   .md\:mt-auto {
     margin-top: auto;
-  }
-
-  .md\:mt-28 {
-    margin-top: 7rem;
   }
 
   .md\:block {
@@ -1157,12 +1211,20 @@ video {
     height: 100vh;
   }
 
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:w-10 {
     width: 2.5rem;
   }
 
   .md\:w-\[100px\] {
     width: 100px;
+  }
+
+  .md\:w-\[1100px\] {
+    width: 1100px;
   }
 
   .md\:w-\[450px\] {
@@ -1257,6 +1319,11 @@ video {
     padding-bottom: 0.625rem;
   }
 
+  .md\:py-\[202px\] {
+    padding-top: 202px;
+    padding-bottom: 202px;
+  }
+
   .md\:pb-8 {
     padding-bottom: 2rem;
   }
@@ -1293,6 +1360,10 @@ video {
 
   .md\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .md\:leading-\[57px\] {
+    line-height: 57px;
   }
 
   .md\:leading-\[65px\] {
